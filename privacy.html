@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumina Desktop Widgets – Privacy Notice</title>
+<style>
+:root{--bg:#fff;--fg:#1c1f24;--mut:#5b6470;--line:#e1e5ea;--acc:#3a5bd9}
+@media(prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e8eaed;--mut:#9aa3ad;--line:#2d3138;--acc:#8fa8ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7rem;margin:0 0 4px}h2{font-size:1.2rem;margin:32px 0 8px;border-top:1px solid var(--line);padding-top:20px}
+p.meta{color:var(--mut);margin:0 0 16px}a{color:var(--acc)}li{margin:6px 0}nav a{margin-right:12px}
+</style>
+</head>
+<body><main>
+<nav><a href="#en">English</a><a href="#vi">Tiếng Việt</a></nav>
+
+<section id="en">
+<h1>Lumina Desktop Widgets — Microsoft Store edition privacy notice</h1>
+<p class="meta">Publisher: MTD Studio · Last updated: 2026-11-17</p>
+
+<h2>What the app uses</h2>
+<ul>
+<li>The app stores preferences, widget positions, pinned shortcuts, Pomodoro history and notes on the device in the app's Windows package LocalState.</li>
+<li>The dock reads Windows app metadata and icons to provide app search. Desktop shortcut synchronization can be enabled in App Dock settings.</li>
+<li>Music reads the active Windows media session. It uses track and artist names, playback state and artwork to display and control that session. Artwork may be cached locally in LocalState/config/native-music-player/art. The Store edition does not sign into a music account or run the optional browser adapter.</li>
+<li>Control Center and status widgets read relevant device and system information such as volume, connected displays, battery and resource usage. Commands such as changing volume are initiated through the widget.</li>
+<li>Weather requests Windows location only when you choose “Use my location.” It checks whether the position is supported on the device. For supported locations it rounds coordinates to two decimal places before sending them to MET Norway, which also receives the IP address used for the request. Device coordinates are kept in memory for the current app session. The app saves only your city selection if you choose a city manually. See <a href="https://docs.api.met.no/doc/TermsOfService">MET Norway's terms and privacy information</a>.</li>
+<li>Diagnostic logs are stored locally under LocalState/logs. They may contain device-specific error messages or local file paths. Review them before sharing them in a public issue or support message.</li>
+</ul>
+
+<h2>Network and sharing</h2>
+<p>Starting with version 0.1.8, Microsoft Store handles optional Lumina Pro purchases. The app asks Windows for the add-on price and entitlement status. Microsoft processes the transaction and payment information under its own terms. The app uses the entitlement result to unlock the extra clock faces and does not collect payment details.</p>
+<p>The Store edition does not send diagnostic logs, notes or listening activity to MTD Studio and does not use an analytics service. Microsoft Store manages app distribution and updates under Microsoft's applicable terms. When you choose to open another application, provider or website, it handles your information under its own policies. This notice covers the Store edition. The separately distributed source and portable builds may include the optional YouTube Music browser integration and a GitHub update check.</p>
+
+<h2>Your controls</h2>
+<p>Manage or hide widgets in Widget Manager and turn desktop shortcut synchronization off in App Dock settings. Delete individual notes in Sticky Notes. In Weather settings, select a city or “No city selected” to stop using device coordinates, or open Windows location settings to change permissions. You can inspect or remove local logs and cached artwork after quitting the app. Resetting the app through Windows Settings clears its local data, including notes and layout. Back up anything you want to keep before resetting.</p>
+
+<h2>Contact</h2>
+<p>For privacy or support questions, use the project's issue tracker: <a href="https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues">github.com/mtruongforwork/lumina-desktop-widgets-support</a>. Avoid posting personal information in a public issue.</p>
+</section>
+
+<section id="vi">
+<h1>Lumina Desktop Widgets — Thông báo quyền riêng tư (bản Microsoft Store)</h1>
+<p class="meta">Nhà phát hành: MTD Studio · Cập nhật lần cuối: 2026-11-17</p>
+
+<h2>Ứng dụng sử dụng gì</h2>
+<ul>
+<li>Ứng dụng lưu tùy chọn, vị trí widget, lối tắt đã ghim, lịch sử Pomodoro và ghi chú trên thiết bị, trong LocalState của gói ứng dụng Windows.</li>
+<li>Dock đọc siêu dữ liệu và biểu tượng ứng dụng Windows để cung cấp tìm kiếm ứng dụng. Có thể bật đồng bộ lối tắt desktop trong cài đặt App Dock.</li>
+<li>Music đọc phiên phát đa phương tiện Windows đang hoạt động. Ứng dụng dùng tên bài hát, nghệ sĩ, trạng thái phát và ảnh bìa để hiển thị và điều khiển phiên đó. Ảnh bìa có thể được lưu đệm cục bộ tại LocalState/config/native-music-player/art. Bản Store không đăng nhập tài khoản âm nhạc và không chạy bộ chuyển đổi trình duyệt tùy chọn.</li>
+<li>Control Center và các widget trạng thái đọc thông tin thiết bị và hệ thống liên quan như âm lượng, màn hình đã kết nối, pin và mức sử dụng tài nguyên. Các lệnh như đổi âm lượng chỉ thực hiện khi bạn thao tác trên widget.</li>
+<li>Weather chỉ yêu cầu vị trí Windows khi bạn chọn “Use my location” (Dùng vị trí của tôi). Ứng dụng kiểm tra vị trí có được hỗ trợ hay không. Với vị trí được hỗ trợ, tọa độ được làm tròn đến hai chữ số thập phân trước khi gửi cho MET Norway; MET Norway cũng nhận địa chỉ IP dùng cho yêu cầu. Tọa độ thiết bị chỉ được giữ trong bộ nhớ trong phiên chạy hiện tại. Nếu bạn chọn thành phố thủ công, ứng dụng chỉ lưu lựa chọn thành phố. Xem <a href="https://docs.api.met.no/doc/TermsOfService">điều khoản và thông tin quyền riêng tư của MET Norway</a>.</li>
+<li>Nhật ký chẩn đoán được lưu cục bộ tại LocalState/logs. Nhật ký có thể chứa thông báo lỗi theo thiết bị hoặc đường dẫn tệp cục bộ. Hãy xem lại trước khi chia sẻ trong issue công khai hoặc tin nhắn hỗ trợ.</li>
+</ul>
+
+<h2>Mạng và chia sẻ</h2>
+<p>Từ phiên bản 0.1.8, Microsoft Store xử lý các giao dịch mua Lumina Pro tùy chọn. Ứng dụng hỏi Windows về giá và trạng thái quyền sở hữu của gói bổ sung. Microsoft xử lý giao dịch và thông tin thanh toán theo điều khoản riêng của họ. Ứng dụng dùng kết quả quyền sở hữu để mở khóa các mặt đồng hồ bổ sung và không thu thập thông tin thanh toán.</p>
+<p>Bản Store không gửi nhật ký chẩn đoán, ghi chú hay hoạt động nghe nhạc cho MTD Studio và không dùng dịch vụ phân tích. Microsoft Store quản lý việc phân phối và cập nhật ứng dụng theo điều khoản của Microsoft. Khi bạn chọn mở ứng dụng, nhà cung cấp hoặc trang web khác, bên đó xử lý thông tin của bạn theo chính sách riêng. Thông báo này áp dụng cho bản Store. Các bản mã nguồn và portable phân phối riêng có thể gồm tích hợp trình duyệt YouTube Music tùy chọn và kiểm tra cập nhật từ GitHub.</p>
+
+<h2>Quyền kiểm soát của bạn</h2>
+<p>Quản lý hoặc ẩn widget trong Widget Manager và tắt đồng bộ lối tắt desktop trong cài đặt App Dock. Xóa từng ghi chú trong Sticky Notes. Trong cài đặt Weather, chọn một thành phố hoặc “No city selected” để ngừng dùng tọa độ thiết bị, hoặc mở cài đặt vị trí của Windows để đổi quyền. Bạn có thể xem hoặc xóa nhật ký cục bộ và ảnh bìa đã lưu đệm sau khi thoát ứng dụng. Đặt lại ứng dụng trong Cài đặt Windows sẽ xóa dữ liệu cục bộ, gồm ghi chú và bố cục. Hãy sao lưu những gì bạn muốn giữ trước khi đặt lại.</p>
+
+<h2>Liên hệ</h2>
+<p>Với câu hỏi về quyền riêng tư hoặc hỗ trợ, dùng trình theo dõi issue của dự án: <a href="https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues">github.com/mtruongforwork/lumina-desktop-widgets-support</a>. Không đăng thông tin cá nhân trong issue công khai.</p>
+</section>
+</main></body></html>

@@ -4,7 +4,7 @@ Public support for Lumina Desktop Widgets, a Windows desktop utility from MTD St
 
 ## English
 
-[Report a bug or request help](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues/new) · [Browse known issues](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues) · [Privacy notice](https://gist.github.com/hoangmanhtruong-uet-dev/e8f9185490f89dfb14d35b7a26f19913)
+[Report a bug or request help](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues/new) · [Browse known issues](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues) · [Privacy notice](https://mtruongforwork.github.io/lumina-desktop-widgets-support/privacy.html)
 
 Include the app version, Windows version, steps to reproduce, and what you expected. For Weather, include the selected city or the status message under **Use my location**. Weather currently supports Vietnam and the United Kingdom.
 
@@ -14,7 +14,7 @@ Issues are public and posting requires a GitHub account. Please omit exact coord
 
 ## Tiếng Việt
 
-[Báo lỗi hoặc yêu cầu hỗ trợ](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues/new) · [Xem lỗi đã báo](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues) · [Thông báo quyền riêng tư](https://gist.github.com/hoangmanhtruong-uet-dev/e8f9185490f89dfb14d35b7a26f19913)
+[Báo lỗi hoặc yêu cầu hỗ trợ](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues/new) · [Xem lỗi đã báo](https://github.com/mtruongforwork/lumina-desktop-widgets-support/issues) · [Thông báo quyền riêng tư](https://mtruongforwork.github.io/lumina-desktop-widgets-support/privacy.html)
 
 Cho biết phiên bản app, phiên bản Windows, các bước tái hiện và kết quả mong đợi. Với Weather, gửi tên thành phố đã chọn hoặc dòng trạng thái dưới nút **Dùng vị trí của tôi**. Widget hiện hỗ trợ Việt Nam và Vương quốc Anh.
 
